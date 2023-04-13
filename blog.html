@@ -5,6 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+      body {
+        color: lightslategray;
+        background-color: rgb(48, 48, 54);
+      }
+      * {
+        font-size: 22px;
+        font-family: "Lexend", sans-serif;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <h2>Q1: What is the difference Among map, filter, forEach, find?</h2>
+    <p>
+      Ans: <span style="font-weight: bold">map()</span> method returns a new
+      array by applying a given function to each element of an existing array.
+      while <span style="font-weight: bold">forEach()</span> method execute a
+      provided function once for each element in an array but it doesn't modify
+      the main array nor return a new array. and
+      <span style="font-weight: bold">filter()</span> method create a new array
+      with all elements that pass a condition by a given function. while
+      <span style="font-weight: bold">find()</span> method returns the value of
+      the first element in the array that pass the given condition.
+    </p>
+
+    <h2>
+      Q2: What is the difference Among Local Storage, Session Storage & Cookies?
+    </h2>
+    <p>
+      Ans: <span style="font-weight: bold">LocalStorage</span> Allow To store
+      data that is stored locally on the client's computer & this stored data
+      can be accessed even after closing the browser or after restarting the
+      Device while <span style="font-weight: bold">SessionStorage</span> Does
+      The Exject Things As LocalStorage but SessionStorage stored data can't be
+      accessed after closing the tab or browser.
+    </p>
+    <h2>Q3: What is Event Loop? & How How Event Loop Works?</h2>
+    <p>
+      Ans: The Event Loop is a mechanism in JavaScript that allows the language
+      to handle asynchronous programming in a non-blocking way. It's a
+      continuously running process that checks the message queue and executes
+      the callback functions registered in response to different events.
+    </p>
+  </body>
 </html>
