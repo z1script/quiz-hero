@@ -58,6 +58,7 @@ const chooseQuiz = (index, givenAns) => {
       serial++;
     }
   } else {
+    console.log(quizData);
     answers.push({...quizData[index], givenAns});
   }
   displayAnswers(answers);
