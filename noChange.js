@@ -52,13 +52,13 @@ const chooseQuiz = (index, givenAns) => {
     let serial = 0;
     for (let quiz of answers) {
       if (isExist.id === quiz.id) {
-        answers.splice(serial, 1, { ...quizData[index], givenAns });
+        answers.splice(serial, 1, {...quizData[index], givenAns});
         break;
       }
       serial++;
     }
   } else {
-    answers.push({ ...quizData[index], givenAns });
+    answers.push({...quizData[index], givenAns});
   }
   displayAnswers(answers);
 };
